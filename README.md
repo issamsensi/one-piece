@@ -50,7 +50,7 @@ This mini-wiki introduces the main characters of **One Piece**—Luffy, Zoro, Sa
 
 ## Demo
 
-[Live Demo](#) <!-- Replace # with your deployed URL if available -->
+[Live Demo](https://issamsensi.github.io/one-piece/)
 
 ---
 
