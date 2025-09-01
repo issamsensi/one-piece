@@ -1,0 +1,124 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    #navbar {
+      width: 220px;
+      background: #1e293b;
+      color: white;
+      padding: 1.5rem;
+      position: fixed;
+      height: 100%;
+    }
+
+    #navbar header {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-bottom: 2px solid #475569;
+      padding-bottom: 0.5rem;
+    }
+
+    #navbar a {
+      display: block;
+      padding: 0.5rem 0;
+      color: #e2e8f0;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    #navbar a:hover {
+      color: #38bdf8;
+      padding-left: 5px;
+    }
+
+    /* Main Content */
+    #main-doc {
+      margin-left: 240px;
+      padding: 2rem;
+      width: 100%;
+    }
+
+    .main-section {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    }
+
+    .main-section header {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #1d4ed8;
+      text-transform: capitalize;
+    }
+
+    .main-section p {
+      margin-bottom: 0.7rem;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    code {
+      background: #e2e8f0;
+      padding: 0.2rem 0.4rem;
+      margin: 0.2rem;
+      border-radius: 4px;
+      font-family: monospace;
+      display: inline-block;
+    }
+    a#tribute-link {
+    display: inline-block;
+    margin-top: 1.2rem;
+    color: #0072ff;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #0072ff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+    }
+
+    a#tribute-link:hover {
+    background: #0072ff;
+    color: #fff;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      #main-doc {
+        margin-left: 0;
+      }
+    }
